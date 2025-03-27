@@ -6,7 +6,7 @@ import {
 import {
   SignUpWithUsernameAndPasswordErrorCode,
   LogInWithUsernameAndPasswordErrorCode,
-} from "../controllers/authentication/auntentication-types.js";
+} from "../../src/controllers/authentication/authenticaton-types.js";
 
 export const authenticationRoutes = new Hono();
 
