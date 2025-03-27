@@ -12,7 +12,7 @@ import { Private_Secret_Key } from "../../../environment.js";
 
 const createJWToken = (p: { id: string; username: string }): string => {
   const jwtPayload: jwt.JwtPayload = {
-    iss: "http://github.com/hariprasadP06",
+    iss: "http://github.com/shashankm03",
     sub: p.id,
     username: p.username,
   };
