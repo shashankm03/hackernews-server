@@ -26,7 +26,7 @@ const createJWToken = (p: { id: string; username: string }): string => {
 export const checkIfUserExistsAlready = async (p: {
   username: string;
 }): Promise<boolean> => {
-  const user_exist = await prismaClient.user.findUnique({
+  const user_exist = await prismaClient.user.findFirst({
     where: {
       username: p.username,
     },
