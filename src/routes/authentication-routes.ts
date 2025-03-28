@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import {
   signUpWithUsernameAndPassword,
   logInWithUsernameAndPassword,
-} from "../controllers/authentication/authentication-index.js";
+} from "../controllers/authentication/authentication-controller.js";
 import {
   SignUpWithUsernameAndPasswordErrorCode,
   LogInWithUsernameAndPasswordErrorCode,
