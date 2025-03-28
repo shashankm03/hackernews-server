@@ -1,5 +1,5 @@
-import { prismaClient } from "../../extras/prisma";
-import { PostError, type CreatePostResult, type GetAllPostsResult, type GetMyPostsResult } from "./posts-types";
+import { prismaClient } from "../../extras/prisma.js";
+import { PostError, type CreatePostResult, type GetAllPostsResult, type GetMyPostsResult } from "./posts-types.js";
 
 export const getAllPosts = async (parameters: {
   page: number;
