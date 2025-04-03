@@ -10,7 +10,7 @@ env:
   RESOURCE_GROUP: Erbium
   CONTAINER_APPS_ENVIRONMENT: ErbiumContainerAppsEnvironment
   LOG_ANALYTICS_WORKSPACE: ErbiumLogAnalyticsWorkspace
-  ACR_REGISTRY: erbium.azurecr.io # This has to be unique (at least the `erbium` bit)
+  ACR_REGISTRY: erbium095.azurecr.io # This has to be unique (at least the `erbium` bit)
   ACR_REPOSITORY_NAME: erbium
   CONTAINER_APP_NAME: erbium
   TARGET_PORT: 3000
